@@ -8,4 +8,3 @@ Echo.%PATH% | findstr /C:"C:\Program Files\platform-tools" || (
 	echo Y | rmdir /s platform-tools
 	setx path "%PATH%;C:\Program Files\platform-tools\;" /M	
 )
-pause

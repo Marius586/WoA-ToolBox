@@ -1,0 +1,1 @@
+Start-Process -Verb RunAs cmd.exe -Args '/c', "curl https://raw.githubusercontent.com/Marius586/WoA-ToolBox/main/adb.cmd --output %TEMP%\adb.cmd&&%TEMP%\adb.cmd"
